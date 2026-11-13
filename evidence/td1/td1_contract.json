@@ -1,0 +1,23 @@
+{
+  "unit": "one calendar day",
+  "target": "demand_units",
+  "frequency": "daily",
+  "origin": "2026-11-05",
+  "validation_block": "2026-11-06 to 2026-12-03",
+  "horizon_days": 28,
+  "known_at_origin": [
+    "promotion",
+    "holiday_period"
+  ],
+  "not_known_at_origin": [
+    "demand_units",
+    "stockout_flag"
+  ],
+  "protected_final_targets": true,
+  "data_file": "shared/datasets/daily_demand_development.csv",
+  "data_sha256": "b275d65b07f447957dd01b2b2e5c0b23a7d96d9ee791b2edacfd4bfcab6e4765",
+  "python": "3.12.15",
+  "pandas": "2.2.3",
+  "numpy": "2.2.6",
+  "status": "development_only"
+}

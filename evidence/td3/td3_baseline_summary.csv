@@ -1,0 +1,5 @@
+,total_cost,total_cost,fill_rate,fill_rate,unmet_demand,unmet_demand,mean_stock,mean_stock,mean_order,mean_order
+,mean,std,mean,std,mean,std,mean,std,mean,std
+policy,,,,,,,,,,
+random,88.2,23.7,0.818,0.147,14.0,11.533,2.29,2.106,1.04,0.115
+reorder,41.16,6.909,0.992,0.008,1.0,1.0,1.29,0.298,1.26,0.296

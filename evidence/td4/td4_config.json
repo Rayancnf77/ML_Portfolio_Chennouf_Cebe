@@ -1,0 +1,36 @@
+{
+  "q_table_shape": [
+    9,
+    2,
+    3
+  ],
+  "alpha": 0.18,
+  "gamma": 0.96,
+  "epsilon": "linear decay from 0.85 to 0.05 over the 1750 episodes",
+  "training": "one Q-table trained through 5 seed blocks x 350 episodes (not 5 independent runs)",
+  "episode_seed": "seed*100000 + episode number",
+  "action_rng": "one generator default_rng(11), separate from the environment",
+  "development_seeds": [
+    100011,
+    100023,
+    100037,
+    100051,
+    100071
+  ],
+  "truncation": "bootstrap at the 40-day time limit, zero continuation only on a real termination",
+  "training_seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "episodes": 1750,
+  "q_table_sha256": "61cce1915bd5798f53c22529c9dbdca52b38c2c946a5b186e28e2d777f19738e",
+  "environment_sha256": "c8855fee79739cf14df1b610c60d7527785deedd25c2f40c1dfac8ac8cc91256",
+  "python": "3.12.15",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "status": "development_only"
+}

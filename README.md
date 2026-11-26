@@ -1,3 +1,5 @@
+**Class presentation (bonus +1):** CEBE Raphaël presented TD3 to the class.
+
 # Operations & Decisions Portfolio — pair repository
 
 Copy this directory's **contents** to the stable-pair repository root during

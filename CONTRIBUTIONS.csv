@@ -3,5 +3,5 @@ date_utc,session_or_artifact,student_id,role,contribution,claim_ids,evidence_pat
 2026-10-22,TD1,CHENNOUF Rayan,evidence_steward,"Reviewed the code with the experiment lead and assisted throughout the TD",TS-01-TD1,evidence/td1/,CEBE Raphaël
 2026-10-22,TD2,CHENNOUF Rayan,experiment_lead,"Rolling-origin loop (3 origins x 3 models), aggregate and Ljung-Box diagnostic, frozen selection rule, interpretation",TS-01-TD2,evidence/td2/,CEBE Raphaël
 2026-10-22,TD2,CEBE Raphaël,evidence_steward,"Reviewed the rolling-origin protocol, results and decision rule with the experiment lead",TS-01-TD2,evidence/td2/,CHENNOUF Rayan
-2026-11-26,TD3,CEBE Raphaël,rl_baseline_owner,"MDP contract, reward decomposition check, random and regime-aware reorder baselines, five-seed common-episode evaluation, interpretation",RL-01-TD3,evidence/td3/,pending review by CHENNOUF Rayan
-2026-11-26,TD4,CEBE Raphaël,rl_learning_owner,"Learning contract, epsilon-greedy tabular Q-learning loop, training diagnostics, three-policy development comparison, Q-table freeze, interpretation",RL-01-TD4,evidence/td4/,pending review by CHENNOUF Rayan
+2026-11-26,TD3,CEBE Raphaël,rl_baseline_owner,"MDP contract, reward decomposition check, random and regime-aware reorder baselines, five-seed common-episode evaluation, interpretation",RL-01-TD3,evidence/td3/, CHENNOUF Rayan
+2026-11-26,TD4,CEBE Raphaël,rl_learning_owner,"Learning contract, epsilon-greedy tabular Q-learning loop, training diagnostics, three-policy development comparison, Q-table freeze, interpretation",RL-01-TD4,evidence/td4/, CHENNOUF Rayan
